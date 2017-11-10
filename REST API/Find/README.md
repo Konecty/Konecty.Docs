@@ -70,7 +70,7 @@ Propriedade `conditions` recebe um array de objetos com propriedades de `term`,`
 
 ## Retorno
 
-Um JSON será o retorno da requisição com dados referente ao suce
+Um JSON será o retorno da requisição com os dados:
 
 | Propriedade    | Tipo    |                  Detalhes                                            |
 |----------------|---------|:--------------------------------------------------------------------:|
@@ -79,7 +79,7 @@ Um JSON será o retorno da requisição com dados referente ao suce
 | total          | integer | Quantidade de dados retornados                                       |
 | errors         | Array   | Lista de objetos com uma propriedade message, para mensagens de erro |
 
-
+Exemplo de sucesso:
 ```
 {
 	"success": true,
