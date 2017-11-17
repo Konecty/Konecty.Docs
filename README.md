@@ -1,7 +1,6 @@
 
 # Konecty Docs
 
-## What is Konecty?
+## O que é o Konecty?
 
-Konecty is a CRM Tool focused on offering users facility, flexibility and speed,
-allowing customization and development of new applications.
+Konecty é um CRM focado em oferecer ao usuário facilidade, flexibilidade e rapidez, permitindo a customização e desenvolvimento para novas aplicações.
