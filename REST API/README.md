@@ -8,7 +8,7 @@ Os métodos da API tem restrições conforme configuração de acesso do usuári
 
 Para realizar qualquer busca dentro do konecty, deve ser primeiro requisitado o token no método de autenticação e o mesmo ser enviado em todas as outras posteriores.
 
-Para maior detalhes acesse o [link](authentication/)
+Para maior detalhes acesse o [link](Authentication/)
 
 ## Request
 
@@ -17,8 +17,8 @@ Para maior detalhes acesse o [link](authentication/)
 
 | URL                                                               | Descrição                                       | Detalhes              |
 |-------------------------------------------------------------------|-------------------------------------------------|:---------------------:|
-| `https://[dominio.konecty]/rest/data/:document/find`              | Lista de dados referente ao ':document' passado |[Link](find/)|
-| `https://[dominio.konecty]/rest/data/:document/:dataId`           | Busca o '_id' referente ao ':document' passado  |[Link](find/byid/)|
+| `https://[dominio.konecty]/rest/data/:document/find`              | Lista de dados referente ao ':document' passado |[Link](Find/)|
+| `https://[dominio.konecty]/rest/data/:document/:dataId`           | Busca o '_id' referente ao ':document' passado  |[Link](Find/ById/)|
 
 ## Lista de `:documents`
 
