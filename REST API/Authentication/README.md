@@ -32,7 +32,7 @@ Para realizar qualquer requisição na API REST do konecty, deve ser primeiro re
 
 Exemplo de requisição de Token de autenticação.
 
-Realizando um POST para Url ```https://[domain]/rest/auth/login``` com o Header ```"Content-Type: application/json"``` e os parametros
+Realizando um POST para Url ```https://[domain]/rest/auth/login``` com o Header ```"Access-Control-Allow-Origin: *"``` , ```"Content-Type: application/json"``` e os parametros
 
 ``` 
 {
@@ -61,7 +61,9 @@ Exemplo:
 
 ```
 headers:{
-    'Cookie': "_authToken=_AUTH_ID_; _authTokenNs=NOME_DA_EMPRESA"
+    'Cookie': "_authToken=_AUTH_ID_; _authTokenNs=NOME_DA_EMPRESA",
+    'Access-Control-Allow-Origin: *',
+    'Content-Type: application/json'
 }
 
 ```
