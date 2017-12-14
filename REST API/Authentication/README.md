@@ -63,7 +63,7 @@ Exemplo:
 headers:{
     'Cookie': "_authToken=_AUTH_ID_; _authTokenNs=NOME_DA_EMPRESA",
     'Access-Control-Allow-Origin: *',
-	'Content-Type: application/json'
+    'Content-Type: application/json'
 }
 
 ```
